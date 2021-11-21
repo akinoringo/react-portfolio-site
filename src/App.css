@@ -2,7 +2,7 @@
  layout
  ******************************/
 body {
-  font-family: Arial, Serif;
+  font-family: Arial, serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 1.7;
@@ -79,6 +79,10 @@ h3 {
   padding-right: 10px;
 }
 
+.social-icons li a:hover {
+  opacity: 0.8;
+}
+
 .container {
   width: 1170px;
   margin-right: auto;
@@ -126,4 +130,44 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+}
+
+/******************************
+ contact
+ ******************************/
+#contact {
+  padding: 128px 0;
+  clear: both;
+}
+
+.contact {
+  background: #30BFBA;
+}
+
+.contact-contents {
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.btn {
+  font-family: "Space Mono", Arial, serif;
+  font-size: 16px;
+  border: none !important;
+  border-radius: 30px;
+  padding: 16px 64px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#contact .btn {
+  height: 54px;
+  background: #FFF;
+  color: #30BFBA;
 }
