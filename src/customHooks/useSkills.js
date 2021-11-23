@@ -25,13 +25,13 @@ export const useSkills = () => {
     return uniqueLanguageList.map(item => {
       return {
         language: item,
-        count: allLanguageList.filter(language => language === item.language).length
+        count: allLanguageList.filter(language => language === item).length
       }
     })
   }
 
   const converseCountToPercentage = (count) => {
-    if (count > 10) { return 100 };
+    if (count > 10) { return 100 }
     return count * 10
   }
 
